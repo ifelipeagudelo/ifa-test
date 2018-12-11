@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+
+.navbar-inverse {
+  background: transparent;
+  color: #FFF;
+  border-color: #e8f1ff;
+  border-radius: 0%;
+}
+
+.navbar-inverse .navbar-header > a:hover, .navbar-inverse .navbar-nav > li > a:hover {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li.nav-item-blue > a {
+  color: aqua;
+}
+
+.navbar-inverse .navbar-nav > li .badge {
+  padding: 3px 5px;
+  font-size: 8px;
+  float: right;
+  position: relative;
+  top: -5px;
+}
+
+.panel-info .panel-heading .panel-title {
+  text-transform: uppercase;
+}
+
+.invoice-container .label {
+  padding: 0%;
+  background: transparent;
+  color: #777;
+  font-weight: 300;
+  font-size: 70%;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.invoice-container .list-group-item-text .balance-value {
+  color: darkorange;
+}
+
+.tabs-container #tabs-container-placeholder {
+  margin-top: 30px;
+}
+
+.tabs-container #tabs-container-placeholder .tab-content {
+  margin-top: 10px;
+}
+
